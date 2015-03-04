@@ -22,6 +22,8 @@ Download and install the Chef client from [here](https://www.chef.io/download-ch
 
 Download and unpack the cookbooks [zipfile](https://github.com/pghalliday/dotfiles-windows/zip/vendor)
 
+Change to the unpacked directory
+
 Then run
 
 ```sh
