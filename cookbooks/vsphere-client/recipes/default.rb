@@ -11,4 +11,5 @@ end
 windows_package 'VMware vSphere Client 5.5' do
   source setup
   installer_type :installshield
+  options '/S /v/qn'
 end
