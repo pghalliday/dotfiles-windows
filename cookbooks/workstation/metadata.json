@@ -12,7 +12,8 @@
     "windows-always-on": ">= 0.0.0",
     "office": ">= 0.0.0",
     "streamxpress": ">= 0.0.0",
-    "vsphere-client": ">= 0.0.0"
+    "vsphere-client": ">= 0.0.0",
+    "chefdk": ">= 0.0.0"
   },
   "recommendations": {
   },
