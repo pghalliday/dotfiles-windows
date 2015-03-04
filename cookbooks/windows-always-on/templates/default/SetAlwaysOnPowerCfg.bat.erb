@@ -1,0 +1,11 @@
+REM Set the new Always on power scheme active
+powercfg -setactive 381b4222-f694-41f0-9685-ff5bb260df2e
+
+REM Delete the Always on power scheme if it already exists
+for /f "tokens=4-5 delims= " %%G in ('powercfg -list ^| findstr "0e0bc03e-c582-4ead-a662-0a33f2870ea1"') do powercfg -delete %%G
+
+REM Import the new Always on power scheme
+powercfg -import <%= @pow_file %> 0e0bc03e-c582-4ead-a662-0a33f2870ea1
+
+REM Set the default balanced power scheme active (must do this as we cannot delete the active power scheme)
+powercfg -setactive 0e0bc03e-c582-4ead-a662-0a33f2870ea1

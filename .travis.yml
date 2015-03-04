@@ -1,0 +1,15 @@
+language: ruby
+install:
+  - curl -L https://www.opscode.com/chef/install.sh | sudo bash -s -- -P chefdk
+before_script:
+  - ./build.sh
+script:
+  - echo "No tests implemented (yet...)"
+after_script:
+  - ./deploy.sh
+env:
+  global:
+    - ENCRYPTION_LABEL="1c9df5b2ff91"
+    - GIT_NAME="Peter Halliday"
+    - GIT_EMAIL="pghalliday@gmail.com"
+    - DEPLOY_BRANCH="master"
