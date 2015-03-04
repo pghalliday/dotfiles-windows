@@ -20,7 +20,7 @@ Create the file `C:\dotfiles\attributes.json` with the following content
 
 Download and install the Chef client from [here](https://www.chef.io/download-chef-client/)
 
-Download and unpack the cookbooks [zipfile](https://github.com/pghalliday/dotfiles-windows/zip/vendor)
+Download and unpack the cookbooks [zipfile](https://github.com/pghalliday/dotfiles-windows/zipball/vendor)
 
 Change to the unpacked directory
 
