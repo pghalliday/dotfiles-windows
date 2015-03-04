@@ -26,3 +26,6 @@ include_recipe 'vsphere-client::default'
 
 # install ChefDK
 include_recipe 'chefdk::default'
+
+# install msysgit
+include_recipe 'git::default'

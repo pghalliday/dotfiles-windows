@@ -8,7 +8,7 @@ remote_file setup do
   checksum 'd7e78da2251a35acd14a932280689c57ff9499a474a448ae86e6c43b882692dd'
 end
 
-windows_package 'msysgit' do
+windows_package 'Git version 1.9.5-preview20141217' do
   source setup
   installer_type :inno
 end
