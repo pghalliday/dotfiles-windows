@@ -8,7 +8,7 @@ remote_file setup do
   checksum '57ea4e662c4398fb2c4a9c7a133d5cf7e9e0db0aa10a8892ac21085aa619c694'
 end
 
-windows_package 'ChefDK' do
+windows_package 'Chef Development Kit v0.4.0' do
   source setup
   installer_type :msi
 end

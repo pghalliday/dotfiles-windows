@@ -26,4 +26,5 @@ end
 windows_package 'StreamXpress Stream Player (DTC-300)' do
   source setup
   installer_type :installshield
+  options '/S /v/qn'
 end
