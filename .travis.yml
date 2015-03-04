@@ -9,7 +9,7 @@ after_script:
   - ./deploy.sh
 env:
   global:
-    - ENCRYPTION_LABEL="1c9df5b2ff91"
+    - ENCRYPTION_LABEL="1c9df5b2ff89"
     - GIT_NAME="Peter Halliday"
     - GIT_EMAIL="pghalliday@gmail.com"
     - DEPLOY_BRANCH="master"
