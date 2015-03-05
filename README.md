@@ -1,5 +1,5 @@
-dotfiles
-========
+dotfiles-windows
+================
 
 Usage
 -----
