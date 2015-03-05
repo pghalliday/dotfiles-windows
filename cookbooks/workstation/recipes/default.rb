@@ -29,3 +29,6 @@ include_recipe 'chefdk::default'
 
 # install msysgit
 include_recipe 'git::default'
+
+# install adobe reader
+include_recipe 'adobe-reader::default'
