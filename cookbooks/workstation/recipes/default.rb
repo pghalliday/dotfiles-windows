@@ -32,3 +32,12 @@ include_recipe 'git::default'
 
 # install adobe reader
 include_recipe 'adobe-reader::default'
+
+# install Lync
+node.override['lync']['aws_s3_bucket'] = workstation_aws_s3_bucket
+node.override['lync']['aws_access_key_id'] = workstation_aws_access_key_id
+node.override['lync']['aws_secret_access_key'] = workstation_aws_secret_access_key
+include_recipe 'lync::default'
+
+# install putty
+include_recipe 'putty::default'
