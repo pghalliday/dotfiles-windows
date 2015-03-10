@@ -41,3 +41,6 @@ include_recipe 'lync::default'
 
 # install putty
 include_recipe 'putty::default'
+
+# install 7-zip
+include_recipe '7-zip::default'
