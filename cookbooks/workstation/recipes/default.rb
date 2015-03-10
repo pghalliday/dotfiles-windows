@@ -44,3 +44,9 @@ include_recipe 'putty::default'
 
 # install 7-zip
 include_recipe '7-zip::default'
+
+# install Sublime Text 2
+include_recipe 'sublime::default'
+
+# install vim
+include_recipe 'vim::default'
