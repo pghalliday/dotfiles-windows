@@ -1,4 +1,6 @@
 DEPENDENCIES
+  7-zip
+    path: cookbooks/7-zip
   adobe-reader
     path: cookbooks/adobe-reader
   chefdk
@@ -25,6 +27,8 @@ DEPENDENCIES
     path: cookbooks/workstation
 
 GRAPH
+  7-zip (0.1.0)
+    windows (>= 0.0.0)
   adobe-reader (0.1.0)
     windows (>= 0.0.0)
   chef_handler (1.1.6)
@@ -51,6 +55,7 @@ GRAPH
   windows-auto-login (0.1.0)
     windows (>= 0.0.0)
   workstation (0.1.0)
+    7-zip (>= 0.0.0)
     adobe-reader (>= 0.0.0)
     chefdk (>= 0.0.0)
     git (>= 0.0.0)
